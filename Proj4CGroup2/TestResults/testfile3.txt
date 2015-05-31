@@ -1,0 +1,24 @@
+/*This file has a semantic error, main is not the last function.
+Also, localvar is a localvariable and cannot be accessed in main.
+x[5] is an array and cannot be accessed as a normal variable. */
+
+void foo(int y)
+{
+	int localvar = 72;
+
+}
+
+
+void main(void)
+{
+	int x[5];
+	x = 18;
+	localvar = x + 20;
+
+}
+
+void badfunction(int q)
+{
+	int g;
+}
+

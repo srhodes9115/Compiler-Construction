@@ -1,0 +1,17 @@
+/*This is a simple test file that computes a table of squares from 0-9
+There should be no errors in this file*/
+int square[10];
+
+void main(void)
+{
+	int p;
+	int r;
+	p = 0;
+	
+	while(p<10)
+	{
+		square[p]=r*r;
+		r = r+1;
+	}
+
+}

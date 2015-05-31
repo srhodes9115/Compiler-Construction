@@ -1,0 +1,6 @@
+Variable Name  JVM NUM  Scope  Param  Kind      Type    ArraySize     Invalid
+-------------  -------  -----  -----  ----      ----    ---------     -------
+main                    0       0     function   261  
+square         0        0             array      259        10   
+p              1        1             variable   259                     0        
+r              2        1             variable   259                     0        

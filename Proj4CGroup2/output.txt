@@ -1,0 +1,10 @@
+.source Main.java
+.class  synchronized Main
+.super  java/lang/Object
+
+; >> FUNCTION foo <<
+.method static foo(I)V
+.limit stack 32
+.limit locals 32
+syntax error, unexpected EQUAL, expecting SEM or BLPAR at line number 6 and column number 6
+Compilation error.

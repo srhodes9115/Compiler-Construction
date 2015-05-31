@@ -1,0 +1,11 @@
+/*This test file has a parsing error, cannot declare variables at the end of a function.
+Also, there is a missing semicolon.*/
+
+void main(void)
+{
+	int q;
+	q = 2*2
+	int f;
+	f = q*2;
+}
+
